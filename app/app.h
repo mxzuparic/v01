@@ -4,7 +4,6 @@
 
 namespace vsite::oop::v1
 {
-	int unos_broja();
 	std::string to_hex(int n);
 	std::string to_exp(double x);
 	void mult_table(int n, std::ostream& os);

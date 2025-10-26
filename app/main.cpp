@@ -10,7 +10,7 @@ using namespace vsite::oop::v1;
 int main()
 {
 	std::cout << "Unesi broj: ";
-	int n = unos_broja();
+	double n; std::cin >> n;
 
 	std::cout << "\nHeksadecimalni zapis: " << to_hex(n) << std::endl;
 
@@ -19,6 +19,5 @@ int main()
 	std::cout << "\nTablica mnozenja do " << n << ":\n";
 	mult_table(n, std::cout);
 
-	return 0;
 
 }

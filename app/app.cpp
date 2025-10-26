@@ -5,12 +5,6 @@
 
 namespace vsite::oop::v1
 {
-	int unos_broja() {
-		int x;
-		std::cin >> x;
-		return x;
-	}
-
 	std::string to_hex(int n) {
 		std::ostringstream ss;
 		ss << std::uppercase << std::hex << n;
@@ -43,5 +37,5 @@ namespace vsite::oop::v1
 		}
 	}
 
-} // namespace
+}
 
